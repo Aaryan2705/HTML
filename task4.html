@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport">
+        <title>Task-4</title>
+        <style>
+            body
+            {
+                margin: 50px;
+            }
+            .links{
+                border-color: black;
+                border-width: 2px;
+                border-style: solid;
+                display: inline-block;
+                border-radius: 5px;
+                padding: 20px;
+                padding-left:35px ;
+                padding-right: 125px;
+                background-color: rgb(242, 233, 233);
+            }
+            input
+            {
+                margin-bottom: 5px;
+                border-radius: 4px;
+                border-width: 1px;
+                border-style: solid;
+                padding-left: 5px;
+            }
+            .savebutton
+            {
+                background-color: rgb(244, 229, 201);
+                border-radius: 3px;
+                border-color: rgb(179, 135, 54);
+                margin-top: 10px;
+                box-shadow: inset 2px 2px 10px rgb(199, 193, 185);
+                border-style: solid;
+                border-width: 2px;
+            }
+        </style>
+        <body>
+            <form action="form"></form>
+            <label for="fullname">Full Name: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <input type="text" name="fullname" placeholder="Enter Name">
+            <br>
+            <label for="Username">Username:&nbsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <input type="text" name="username" placeholder="Enter Valid Username">
+            <br>
+            <label for="password">PassWord:&nbsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <input type="password" name="password">
+            <br>
+            <label for="password">Re-Password:&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <input type="password" name="password">
+            <br>
+            <label for="address">Address:&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <input type="text" name="address" placeholder="Enter Address" >
+            <br>
+            <label for="fullname">Age:&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <input type="number" name="age" placeholder="Enter the Age">
+            <br>
+            <label for="gender">Gender:&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br>
+            <button class="savebutton">Save</button>
+        </body>
+    </head>
